@@ -1,4 +1,6 @@
 TwitterApp::Application.routes.draw do
+  get "static_pages/about"
+
   resources :tweets
 
   # The priority is based upon order of creation:
